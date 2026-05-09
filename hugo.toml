@@ -10,14 +10,26 @@ paginate = 5
   themeColor = "green"
   showMenuItems = 2
   showLanguageSelector = false
-  fullWidthTheme = false
+  fullWidthTheme = true
   centerTheme = false
   autoCover = true
   showLastUpdated = false
+  favicon = "/img/avatar.jpg"
+  customCSS = ["css/custom.css"]
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[pagination]
+  pagerSize = 5
 
-[params.twitter]
-  creator = ""
-  site = ""
+[[params.social]]
+  name = "github"
+  url = "https://github.com/DEDSEC-2"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/d3d53c/"
 
 [languages]
   [languages.en]

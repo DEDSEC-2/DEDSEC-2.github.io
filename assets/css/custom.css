@@ -1,0 +1,14 @@
+/* Remove border from avatar specifically */
+img[alt="Dedsec"] {
+  border: none !important;
+  padding: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Make certifications cards background dark */
+.cert-card {
+  background: #000000 !important;
+  border: 1px solid var(--accent) !important;
+  padding: 0.75rem 1rem !important;
+}
