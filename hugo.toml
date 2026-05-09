@@ -1,3 +1,3 @@
-baseURL = 'https://dedsec.github.io/'
+baseURL = "https://dedsec-2.github.io/dedsec.github.io/"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
